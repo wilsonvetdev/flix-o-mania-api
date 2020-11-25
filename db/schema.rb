@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 2020_11_22_155859) do
   create_table "movies", force: :cascade do |t|
     t.integer "movie_id"
     t.string "name"
-    t.boolean "like"
-    t.boolean "dislike"
+    t.integer "like"
+    t.integer "dislike"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
