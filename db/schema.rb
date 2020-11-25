@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 2020_11_22_155859) do
 
   create_table "movies", force: :cascade do |t|
     t.integer "movie_id"
-    t.string "picture"
     t.string "name"
     t.boolean "like"
     t.boolean "dislike"
