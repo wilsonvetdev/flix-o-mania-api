@@ -9,7 +9,6 @@ The single page application allows a user to search for a movie with the search 
 https://www.youtube.com/watch?v=I5IJ2v18BGw
 
 # Tech
-
 * Ruby [2.6.1]
 * Rails [6.0.3.2]
 * React(Components, Hooks, and Routes)
@@ -26,6 +25,9 @@ Note - Front-End repo here -> https://github.com/wilsonvetdev/flix-o-mania/
 4. Run $ rails db:create -> creates the database
 5. Run $ rails db:migrate -> migrate/creates the movie table in this case
 6. Run $ rails s  -> starts the server
+
+# Data Source
+https://www.themoviedb.org/
 
 # Known Issues(tracking)
 1. Front-end - Memory leak warning pops up in the console when I do different searches too quickly(?) - Not sure if that's the root cause, but definitely need to do deeper dive into React hooks.
