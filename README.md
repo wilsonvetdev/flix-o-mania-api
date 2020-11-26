@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=I5IJ2v18BGw
 * active_model_serializers - allows customization and rendering of data in JSON format as responses to requests
 
 # Set-Up
-Note - Front-End repo here -> https://github.com/wilsonvetdev/flix-o-mania/
+Note - Set up the backend first, then go to this link to set up the frontend -> https://github.com/wilsonvetdev/flix-o-mania/
 1. Clone this repo to your local machine -- git clone < git repository >
 2. cd into the flix-o-mania-api repo
 3. Run $ bundle install -> installs required dependencies
